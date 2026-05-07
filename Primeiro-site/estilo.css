@@ -1,0 +1,149 @@
+#titulo-principal{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    color:rgb(255, 255, 255);
+}
+
+body{
+    background-image: linear-gradient(to top, #000000, #3d3b3b);
+    height: 1640px;
+    color: white;
+    font-family:"DM Sans", sans-serif, sans-serif;
+    font-weight: 500;
+    
+
+}
+
+#foto-perfil{
+    margin: auto;
+    display: flex;
+     border-radius: 50%;
+    
+}
+
+#redes-sociais {
+    display: flex; 
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+   
+}
+
+a{
+    filter: invert(100%);
+}
+
+a:hover {
+    filter: invert(0%);
+    transition: 0.4s;
+}
+
+main{ 
+    
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+
+#Sobre{
+    
+    background-color: #393737;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 49rem;
+    height: 750px;
+    border-radius: 55px;
+    padding: 30px;
+    font-size: 20px;
+}
+
+#ini{
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+}
+
+#apresentacao{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    text-align: justify;
+    width: 44rem;
+}
+
+#apresentacao p:last-child {
+    text-align: center;
+    width: 100%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: #1b1a1a;
+    padding: 50px;
+    height: 200px;
+    border-radius: 20px;
+    width: 1250px;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 20px;
+
+ 
+}
+
+#input-enviar{
+    filter: invert(100%);
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: right;
+    border: none;
+    cursor: pointer;
+   
+}
+
+#input-enviar:hover {
+    filter: invert(0%);
+    transition: 0.4s;
+}
+
+#input-nome{
+    height: 20px;
+    width: 10%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(181, 180, 180);
+  
+}
+
+#input-email{
+    height: 20px;
+    width: 20%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(181, 180, 180);
+    display: flex;
+    
+}
+
+#input-mensagem{
+    height: 100px;
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(181, 180, 180);
+    resize: none;
+    
+}
+
+
